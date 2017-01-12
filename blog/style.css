@@ -1,0 +1,69 @@
+body{
+   font-family: 'Fjalla One', sans-serif;
+   color: #152836;
+   font-size: 18px;
+}
+
+header div{
+   width:800px;
+   height: 250px;
+   margin:0px auto;
+   background-color: black;
+}
+
+section{
+   width:800px;
+   height: 80%;
+   margin: 40px auto;
+}
+
+a:link, a:visited {
+    color:#bfbfbf;
+}
+
+a:hover{
+   color:#EB1781;
+}
+
+h2 {
+   margin-top: 15px;
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #152836;
+}
+
+hr {
+   margin: 25px auto;
+   border: 0;
+   height: 10;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+p{
+   text-indent: 25px;
+   line-height: 25px;
+}
+
+img{
+   display: block;
+   margin: 30px auto;
+}
+
+#blog{
+   width: 95%;
+   margin:20px auto;
+}
+
+#dates {
+  color: #EB1781;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-size: 20;
+}
+
+#back{
+   width: 180px;
+   height: 20px;
+   margin: 30px auto 20px auto;
+}
