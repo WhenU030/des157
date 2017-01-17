@@ -1,0 +1,81 @@
+body{
+   font-family: 'Fjalla One', sans-serif;
+   color: #152836;
+   font-size: 16px;
+}
+
+header div{
+   width:800px;
+   height: 250px;
+   margin:0px auto;
+   background-color: black;
+}
+
+section{
+   width:960px;
+   height: 270px;
+   margin: 40px auto auto auto;
+}
+
+section div{
+   width:180px;
+   height: 270px;
+   float: left;
+   margin: 0px 20px;
+   text-align: left;
+}
+
+ul,ol{
+   padding-left: 15px;
+   line-height: 28px;
+   margin: 10px 0px 5px 0px;
+}
+
+a{
+   text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #152836;
+}
+
+section div a:hover{
+   color:#EB1781;
+   font-size:18px;
+}
+
+#myinfo{
+   border-right: 3px #152836 solid;
+   padding-right: 18px;
+   width:200px;
+   float: left;
+   text-align: right;
+}
+
+.name{
+   font-size: 45px;
+   margin: 35px 0px 5px 0px;
+}
+
+.school{
+   font-size: 30px;
+   margin: 0px 0px 10px 0px;
+   color:#EB1781;
+}
+
+.info{
+   font-size: 24px;
+   margin: 25px 0px 10px 0px;
+   text-decoration: underline;
+}
+
+footer div{
+   width: 230px;
+   height: 20px;
+   margin: 40px auto 0px auto;
+}
+
+footer div a:hover{
+   color:#EB1781;
+   /*font-size:18px;*/
+}
