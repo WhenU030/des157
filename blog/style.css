@@ -12,9 +12,11 @@ header div{
 }
 
 section{
-   width:800px;
+   width:700px;
    height: 80%;
    margin: 40px auto;
+   padding: 30px;
+   border: 15px #a6a6a6 solid;
 }
 
 a:link, a:visited {
@@ -41,6 +43,7 @@ hr {
 }
 
 p{
+   width: 600px;
    text-indent: 25px;
    line-height: 25px;
 }
@@ -63,7 +66,8 @@ img{
 }
 
 #back{
-   width: 180px;
+   width: 131px;
    height: 20px;
    margin: 30px auto 20px auto;
+  /* position: fixed;*/
 }
