@@ -1,3 +1,9 @@
+/*
+* @Author: Wenyu She
+* @Date:   2017-01-11 12:01:12
+* @Last Modified by:   Wenyu She
+* @Last Modified time: 2017-01-17 09:45:00
+*/
 body{
    font-family: 'Fjalla One', sans-serif;
    color: #152836;
@@ -8,7 +14,6 @@ header div{
    width:800px;
    height: 250px;
    margin:0px auto;
-   background-color: black;
 }
 
 section{
@@ -77,5 +82,4 @@ footer div{
 
 footer div a:hover{
    color:#EB1781;
-   /*font-size:18px;*/
 }
