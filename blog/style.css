@@ -53,6 +53,7 @@ body{
    font-family: 'Fjalla One', sans-serif;
    color: #152836;
    font-size: 18px;
+   overflow:scroll;
 }
 
 #blog-banner{
@@ -60,16 +61,34 @@ body{
   height: 50px;
   /*border-bottom: 2px #737373 solid;*/
   margin-bottom: 20px;
+  position: top;
 }
 
-nav h3{
-  width: 230px;
-  margin: 30px auto 20px auto;
+#blog-banner h3{
+  width: 330px;
+  margin: 30px auto 10px auto;
   color: #152836;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-size: 30px;
   font-weight: 500;
+}
+
+article{
+   width:700px;
+   height: 80%;
+   margin: 60px auto;
+   padding: 30px;
+   border: 15px #a6a6a6 solid;
+   /*position: relative;*/
+}
+
+a:link, a:visited {
+    color:#bfbfbf;
+}
+
+a:hover{
+   color:#EB1781;
 }
 
 header{
@@ -82,22 +101,6 @@ header h3{
   letter-spacing: 0.2rem;
   text-transform: uppercase;
   font-size: 20px;
-}
-
-article{
-   width:700px;
-   height: 80%;
-   margin: 60px auto;
-   padding: 30px;
-   border: 15px #a6a6a6 solid;
-}
-
-a:link, a:visited {
-    color:#bfbfbf;
-}
-
-a:hover{
-   color:#EB1781;
 }
 
 header h2 {
