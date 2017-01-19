@@ -56,7 +56,7 @@ body{
    overflow:scroll;
 }
 
-#blog-banner{
+#topic-banner{
   width: 100%;
   height: 50px;
   border-bottom: 2px #737373 solid;
@@ -64,8 +64,8 @@ body{
   position: top;
 }
 
-#blog-banner h3{
-  width: 330px;
+#topic-banner h3{
+  width: 470px;
   margin: 30px auto 20px auto;
   color: #152836;
   letter-spacing: 0.2rem;
@@ -74,83 +74,79 @@ body{
   font-weight: 500;
 }
 
-article{
-   width:700px;
-   height: 80%;
-   margin: 60px auto;
-   padding: 30px;
-   border: 15px #a6a6a6 solid;
-   /*position: relative;*/
+#container{
+  width: 90%;
+  height: 550px;
+  margin: auto;
+}
+
+#nav-bar{
+  float: left;
+  width: 10%;
+  height: 100%;
+  margin: 10% auto 30px auto;
+  padding-left: 15px;
+  line-height: 33px;
+  list-style: square;
+  border-right: 3px #152836 solid;
+  font-size: 20px;
+}
+
+a{
+   text-decoration: none;
 }
 
 a:link, a:visited {
-    color:#bfbfbf;
+    color: #152836;
 }
 
 a:hover{
    color:#EB1781;
+   font-size:22px;
 }
 
-header{
-  width: 600px;
-  margin: 15px auto;
+article{
+  float: right;
+  width: 25%;
+  margin: 40px auto 30px 4%;
 }
 
-header h3{
-  color: #EB1781;
-  letter-spacing: 0.2rem;
+h1{
+  font-size: 28px;
   text-transform: uppercase;
-  font-size: 20px;
 }
 
-header h2 {
-  margin-top: 20px;
-  font-size: 2.0rem;
-  font-weight: bold;
-  color: #152836;
+h2{
+  font-size: 15px;
+  color: #33CC65;
+  margin-top:7px;
 }
-
-/*hr {
-   margin: 25px auto;
-   border: 0;
-   height: 10;
-   border-top: 1px solid rgba(0, 0, 0, 0.1);
-   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}*/
 
 p{
-   width: 600px;
-   /*text-indent: 25px;*/
-   line-height: 25px;
-   margin: 20px auto;
+  margin: 20px auto;
+  line-height: 21px;
+  font-size: 16px;
 }
 
-img{
-   display: block;
-   margin: 30px auto;
+strong{
+  font-size: 20px;
+  font-weight: bold;
 }
 
-#blog{
-   width: 95%;
-   margin:25px auto;
-}
-
-#dates {
-  color: #EB1781;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  font-size: 20;
-}
-
-#content{
-  width: 600px;
-  margin: 10px auto;
-}
-
-#back{
-   width: 240px;
+#back {
+   width: 100px;
    height: 20px;
-   margin: 30px auto 20px auto;
-   color:#bfbfbf;
-  /* position: fixed;*/
+   margin: 0.5% auto;
+   letter-spacing:0.2rem;
+   text-decoration: underline;
+
+}
+
+#back a:link, #back a:visited {
+    color:#bfbfbf;
+}
+
+#back a:hover{
+   color:#33CC65;
+   font-size:18px;
 }
