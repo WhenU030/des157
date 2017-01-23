@@ -137,6 +137,17 @@ h4{
    text-decoration: underline;
 }
 
+/*footer{
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:35px;
+   width:100%;
+   padding-top:15px;
+   background:#FFFFFF;
+   margin-top: 40px;
+}*/
+
 footer div{
    width: 230px;
    height: 20px;
