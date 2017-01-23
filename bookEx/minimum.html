@@ -2,7 +2,7 @@
 <html>
 <head>
    <meta charset="UTF-8">
-   <title>Ch 2-Looping</title>
+   <title>Ch 3-Minimum</title>
    <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
    <style>
         * {
@@ -60,7 +60,47 @@
       </li>
    </ul>
    <script>
+      // Minimum
+      var min = function(x, y) {
+        if (x < y) {
+         return x;
+        } else {
+         return y;
+        }
+      };
 
+      // Recursion
+      var isEven = function(x) {
+         if (x >= 0) {
+            if (x % 2 == 0) {
+               return true;
+            } else {
+               return false;
+            }
+         } else {
+            return isEven(x+1);
+         }
+      };
+
+      // Bean counting
+      var countBs = function(b) {
+        var countB = 0;
+        for (var i = 0; i < b.length; i++){
+          if (b.charAt(i) == "B") {
+            countB += 1;
+          }
+        }
+        return countB;
+      };
+      var countChar = function(x, n) {
+        var count = 0;
+        for (var i = 0; i < x.length; i++){
+          if (x.charAt(i) == n) {
+            count += 1;
+          }
+        }
+        return count;
+      };
    </script>
 </body>
 </html>

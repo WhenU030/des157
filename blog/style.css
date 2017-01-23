@@ -83,6 +83,7 @@ body{
   height: 85%;
   margin: 0px auto 30px auto;
   padding-top: 80px;
+  z-index: 0;
 }
 
 #container hr {
