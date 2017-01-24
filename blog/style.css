@@ -79,7 +79,7 @@ body{
 }
 
 #container{
-  width: 800px;
+  width: 100%;
   height: 85%;
   margin: 0px auto 30px auto;
   padding-top: 80px;
@@ -87,12 +87,28 @@ body{
 }
 
 #container hr {
-    width: 80%;
-margin: 5px auto;
+   width: 55%;
+   margin: 5px auto;
    border: 0;
    height: 10;
-     border-top: 1px solid rgba(0, 0, 0, 0.1);
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#side-bar{
+  float:left;
+  height: 20%;
+  width: 15%;
+  padding: 120px 0px 80px 120px;
+  margin-top: 30px;
+  background-color: #FFFFFF;
+  position: fixed;
+  z-index: 10;
+  line-height: 30px;
+}
+
+#side-bar ul{
+  list-style: square;
 }
 
 article{
@@ -172,7 +188,7 @@ footer{
 }
 
 #go-link{
-   width: 240px;
+   width: 100px;
    height: 20px;
    margin: auto;
    color:#bfbfbf;
