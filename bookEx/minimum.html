@@ -68,7 +68,10 @@
          return y;
         }
       };
+      console.log("Minimum: ");
+      console.log(min(3,5));
 
+      //================================================================
       // Recursion
       var isEven = function(x) {
          if (x >= 0) {
@@ -81,7 +84,11 @@
             return isEven(x+1);
          }
       };
+      console.log("\nRecursion: ");
+      console.log(isEven(56));
+      console.log(isEven(7));
 
+      //================================================================
       // Bean counting
       var countBs = function(b) {
         var countB = 0;
@@ -101,6 +108,8 @@
         }
         return count;
       };
+      console.log("\nBean Counting: ");
+      console.log(countChar("sdfhjhhhhhsl","h"));
    </script>
 </body>
 </html>

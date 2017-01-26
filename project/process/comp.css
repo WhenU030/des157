@@ -96,7 +96,7 @@ body{
 }
 
 #side-bar{
-/*  float:left;
+  float:left;
   height: 20%;
   width: 15%;
   padding: 120px 0px 80px 120px;
@@ -104,19 +104,7 @@ body{
   background-color: #FFFFFF;
   position: fixed;
   z-index: 10;
-  line-height: 30px;*/
-  float: left;
-  width: 10%;
-  height: 10%;
-  margin: 10% auto 30px auto;
-  /*padding-left: 15px;*/
-  padding: 0px 0px 0px 100px;
-  line-height: 33px;
-  list-style: square;
-  border-right: 3px #152836 solid;
-  font-size: 20px;
-  z-index: 10;
-  position: fixed;
+  line-height: 30px;
 }
 
 #side-bar ul{
