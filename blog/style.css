@@ -98,7 +98,7 @@ body{
 #side-bar{
   float: left;
   width: 10%;
-  height: 15%;
+  height: 10%;
   margin: 10% auto 30px auto;
   padding: 0px 0px 0px 100px;
   line-height: 33px;
@@ -107,18 +107,15 @@ body{
   font-size: 20px;
   z-index: 10;
   position: fixed;
-}
-
-#side-bar ul{
   list-style: square;
 }
 
-#side-bar ul a:link, #side-bar ul a:visited {
+#side-bar a:link, #side-bar a:visited {
   color:#152836;
   text-decoration: none;
 }
 
-#side-bar ul a:hover{
+#side-bar a:hover{
    color:#EB1781;
    font-size: 20px;
 }
