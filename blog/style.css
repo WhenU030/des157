@@ -110,12 +110,12 @@ body{
   list-style: square;
 }
 
-#side-bar a:link, #side-bar a:visited {
+#side-bar li a:link, #side-bar li a:visited {
   color:#152836;
   text-decoration: none;
 }
 
-#side-bar a:hover{
+#side-bar li a:hover{
    color:#EB1781;
    font-size: 20px;
 }
