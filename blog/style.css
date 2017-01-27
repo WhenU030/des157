@@ -95,27 +95,26 @@ body{
    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#side-bar{
+#nav-bar{
   float: left;
   width: 10%;
-  height: 10%;
+  height: 70px;
   margin: 10% auto 30px auto;
-  padding: 0px 0px 0px 100px;
+  padding-left: 100px;
   line-height: 33px;
   list-style: square;
   border-right: 3px #152836 solid;
   font-size: 20px;
-  z-index: 10;
   position: fixed;
-  list-style: square;
+  z-index: 10;
 }
 
-#side-bar li a:link, #side-bar li a:visited {
+#nav-bar a:link, #nav-bar a:visited {
   color:#152836;
   text-decoration: none;
 }
 
-#side-bar li a:hover{
+#nav-bar a:hover{
    color:#EB1781;
    font-size: 20px;
 }

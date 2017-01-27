@@ -68,7 +68,7 @@ body{
 }
 
 #top-banner h3{
-  width: 330px;
+  width: 430px;
   margin:auto;
   color: #152836;
   font-size: 30px;
@@ -95,28 +95,26 @@ body{
    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-#side-bar{
-  float:left;
-  height: 20%;
-  width: 15%;
-  padding: 120px 0px 80px 120px;
-  margin-top: 30px;
-  background-color: #FFFFFF;
+#nav-bar{
+  float: left;
+  width: 12%;
+  height: 70px;
+  margin: 10% auto 30px auto;
+  padding-left: 100px;
+  line-height: 33px;
+  list-style: square;
+  border-right: 3px #152836 solid;
+  font-size: 20px;
   position: fixed;
   z-index: 10;
-  line-height: 30px;
 }
 
-#side-bar ul{
-  list-style: square;
-}
-
-#side-bar ul a:link, #side-bar ul a:visited {
+#nav-bar a:link, #nav-bar a:visited {
   color:#152836;
   text-decoration: none;
 }
 
-#side-bar ul a:hover{
+#nav-bar a:hover{
    color:#EB1781;
    font-size: 20px;
 }
@@ -136,6 +134,19 @@ a:link, a:visited {
 
 a:hover{
    color:#EB1781;
+}
+
+#info{
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+strong{
+  color: #594538;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 27px;
 }
 
 header{
@@ -164,6 +175,10 @@ p{
    margin: 20px auto;
 }
 
+#notice{
+  font-size: 15px;
+}
+
 img{
    display: block;
    margin: 30px auto;
@@ -174,7 +189,7 @@ img{
    margin:25px auto;
 }
 
-#dates {
+#sub-title {
   color: #EB1781;
   letter-spacing: 0.2rem;
   text-transform: uppercase;
@@ -198,7 +213,7 @@ footer{
 }
 
 #go-link{
-   width: 100px;
+   width: 240px;
    height: 20px;
    margin: auto;
    color:#bfbfbf;
