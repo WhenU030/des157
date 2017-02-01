@@ -5,13 +5,17 @@
 
 /*------------------------------- CSS Reset END --------------------------------*/
 body{
-   width: 35%;
+   width: 25%;
    height: 100%;
    margin:auto;
    background-color: #152836;
    font-family: Times;
    font-size: 18px;
    color: white;
+}
+
+#results{
+  margin: 30px auto;
 }
 
 #btn{
