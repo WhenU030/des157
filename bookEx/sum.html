@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>Ch 4-Sum of a Range</title>
+   <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+   <style>
+        * {
+            margin: 0px;
+            padding: 0px
+        }
+
+        body {
+            font-family: 'Fjalla One', sans-serif;
+            color: #FFFFFF;
+            background-color: #333333;
+            font-size: 18px;
+            margin: 24px;
+        }
+
+        h1 {
+            margin-bottom: 24px;
+        }
+
+        ul {
+         margin: 20px 40px;
+         list-style: square;
+         line-height: 28px;
+         letter-spacing: 0.1rem;
+        }
+
+        li ul {
+         list-style: circle;
+         margin: 5px 20px;
+        }
+
+        a {
+         text-decoration: none;
+        }
+
+        a:link, a:visited {
+          color: #FFFFFF;
+        }
+
+        a:hover{
+          color:#EB1781;
+          font-size:20px;
+        }
+    </style>
+</head>
+<body>
+   <h1>Ch 4-Sum of a Range</h1>
+   <h2>· open the console to see the results of the script ·</h2>
+   <ul>
+      <li><a href="../index.html">Back to Portal</a></li>
+      <li>Excerises
+         <ul>
+            <li><a href="looping.html">Ch2 - Looping</a></li>
+            <li><a href="minimum.html">Ch3 - Minimum</a></li>
+            <li><a href="cat.html">Ch13 - The Cat's Hat</a></li>
+            <li><a href="mouse.html">Ch14 - Mouse Trail</a></li>
+         </ul>
+      </li>
+   </ul>
+   <script>
+      // Minimum
+      var range1 = function(start, end) {
+        var arr = [];
+        if (end > start)
+          for (var i = start; i <= end; i++)
+            arr.push(i);
+        else
+          for (var j = start; j >= end; j--)
+            arr.push(j);
+        return arr;
+      }
+      console.log("Range1: ")
+      console.log(range1(1, 10));
+
+      var range2 = function(start, end, step) {
+        var arr = [];
+        if (end > start)
+          for (var i = start; i <= end; i+=step)
+            arr.push(i);
+        else
+          for (var j = start; j >= end; j+=step)
+            arr.push(j);
+        return arr;
+      }
+      console.log("\nRange2: ")
+      console.log(range2(5, 2, -1));
+
+      var sum = function(arr){
+        var num = 0;
+        for (var i = 0; i < arr.length; i++){
+          num += arr[i];
+        }
+        return num;
+      }
+      console.log("\nSum: ")
+      console.log(sum(range1(1, 10)));
+   </script>
+</body>
+</html>
