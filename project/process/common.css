@@ -67,7 +67,7 @@ body{
   position: fixed;
 }
 
-#top-banner h3{
+h3{
   width: 430px;
   margin:auto;
   color: #152836;
@@ -76,6 +76,10 @@ body{
   letter-spacing: 0.2rem;
   text-transform: uppercase;
 
+}
+
+#choice{
+  width: 300px;
 }
 
 #container{
@@ -213,7 +217,7 @@ footer{
 }
 
 #go-link{
-   width: 350px;
+   width: 550px;
    height: 20px;
    margin: auto;
    color:#bfbfbf;
