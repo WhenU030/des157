@@ -91,7 +91,7 @@ h3{
 }
 
 #container hr {
-   width: 55%;
+   width: 90%;
    margin: 5px auto;
    border: 0;
    height: 10;
@@ -146,6 +146,13 @@ a:hover{
   margin-bottom: 30px;
 }
 
+#heritage{
+  width: 350px;
+  font-size: 23px;
+  font-weight: 500;
+  margin: 0 auto 30px auto;
+}
+
 strong{
   color: #594538;
   text-transform: uppercase;
@@ -170,6 +177,35 @@ header h2 {
   font-size: 2.0rem;
   font-weight: bold;
   color: #152836;
+}
+
+#bibli{
+  margin: 30px 0 0 50px;
+  width: 300px;
+}
+
+#cite{
+  /*margin: auto;*/
+  width: 50px;
+}
+
+ul{
+  width: 700px;
+  font-size: 16px;
+  margin: 10px auto 30px 45px;
+  list-style: square;
+}
+
+ul li{
+  padding: 8px;
+}
+
+ul li a:link, ul li a:visited {
+    color:#152836;
+}
+
+ul li a:hover{
+   color:#EB1781;
 }
 
 p{
