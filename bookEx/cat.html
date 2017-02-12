@@ -62,26 +62,26 @@
          </ul>
       </li>
    </ul>
-   <script>
-        var cat = document.querySelector("#cat");
-        var hat = document.querySelector("#hat");
+   <img src="img/hat.png" id="hat" style="position: absolute;">
+  <img src="img/cat.png" id="cat" style="position: absolute; ">
 
-        var angle = 0, lastTime = null;
-        function animate(time) {
-          if (lastTime != null)
-            angle += (time - lastTime) * 0.001;
-          lastTime = time;
 
-          cat.style.top = (Math.sin(angle) * 20 + 200) + "px";
-          cat.style.left = (Math.cos(angle) * 200 + 400) + "px";
+  <script>
+  var cat = document.querySelector("#cat");
+  var hat = document.querySelector("#hat");
+  var angle = 100, lastTime = null;
+  function animate(time) {
+    if (lastTime != null)
+    angle += (time - lastTime) * 0.001;
+    lastTime = time;
+    hat.style.top = (Math.sin(angle) * 120 + 170) + "px";
+    hat.style.left = (Math.cos(angle) * 250 + 310) + "px";
+    cat.style.top = (Math.sin(angle) * 120 + 200) + "px";
+    cat.style.left = (Math.cos(angle) * 250 + 300) + "px";
 
-          var hatAngle = -angle + Math.PI;
-          hat.style.top = (Math.sin(hatAngle) * 20 + 200) + "px";
-          hat.style.left = (Math.cos(hatAngle) * 200 + 400) + "px";
-
-          requestAnimationFrame(animate);
-        }
-        requestAnimationFrame(animate);
-   </script>
+    requestAnimationFrame(animate);
+  }
+  requestAnimationFrame(animate);
+  </script>
 </body>
 </html>
