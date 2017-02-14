@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*======================== Reset End ===========================*/
+
+body {
+ font-family: 'Abril Fatface', cursive;
+ background-color: #1a1a1a;
+}
+
+header{
+  background-color: #f5c002;
+  margin: auto;
+  height: 150px;
+  color: #1a1a1a;
+  text-align: center;
+  font-size: 64px;
+}
+
+h1{
+  padding-top: 40px;
+}
+
+ul {
+ width: 10in;
+ margin: 50px auto;
+ text-align: center;
+}
+
+li {
+ display: inline-block;
+ position:relative;
+ font-size: 64px;
+ height: 80px;
+ color: #f5c002;
+ text-decoration: none;
+ cursor: pointer;
+ margin: 25px;
+}
+
+/*======================== Tips ===========================*/
+
+div {
+  position:absolute;
+  padding:12px;
+  border-radius:8px;
+  font-size:20px;
+  color:#222;
+  background-color:white;
+  opacity:0;
+  transition:all 1s;
+  /*z-index: 100;*/
+  /*overflow: hidden;*/
+}
+
+/*======================== Footer ===========================*/
+
+footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  padding: 15px 0 15px 0;
+  background: #0d0d0d;
+  margin-top: 40px;
+  text-align: center;
+  color: #f5c002;
+  font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+a:link, a:visited {
+  color: #f5c002;
+}
+
+a:hover{
+  text-decoration: underline;
+}
