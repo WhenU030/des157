@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('time').innerHTML = Date();
+
   var elements = document.getElementsByTagName('li');
   var tipTimer, tipId;
 
@@ -15,6 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     tipId.style.zIndex = "-100";
   });
   }
+
   function showMsg(){
     //can I use "this" to find out which object called the function?
     tipId.style.opacity = 1;
