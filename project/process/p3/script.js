@@ -71,7 +71,7 @@ map.on('mousemove', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
     map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
-
+map.addControl(new mapboxgl.NavigationControl());
 
 
 // map.on('load', function () {
